@@ -1,0 +1,16 @@
+[package]
+name = "kmod-memreader-client"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "memreader_client"
+path = "src/lib.rs"
+
+[dependencies]
+anyhow.workspace = true
+libc = "0.2"
+memreader-uapi = { workspace = true }
+
+[lints.rust]
+unsafe_code = "allow"

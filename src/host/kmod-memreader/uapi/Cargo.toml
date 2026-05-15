@@ -1,0 +1,15 @@
+[package]
+name = "kmod-memreader-uapi"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "memreader_uapi"
+path = "src/lib.rs"
+
+[features]
+default = []
+std = []
+
+[lints]
+workspace = true

@@ -1,0 +1,124 @@
+{
+  "source_repo": "2mlml/cs2-radar-images",
+  "source_branch": "master",
+  "source_directory": "generated-json",
+  "source_commit": "928f035ac467a860f1b893452231ad2532edd4b8",
+  "generated_from": "overview txt",
+  "files": [
+    {
+      "name": "ar_baggage.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_baggage.txt",
+      "size": 94
+    },
+    {
+      "name": "ar_pool_day.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_pool_day.txt",
+      "size": 89
+    },
+    {
+      "name": "ar_shoots.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_shoots.txt",
+      "size": 89
+    },
+    {
+      "name": "cs_agency.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_agency.txt",
+      "size": 100
+    },
+    {
+      "name": "cs_italy.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_italy.txt",
+      "size": 84
+    },
+    {
+      "name": "cs_office.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_office.txt",
+      "size": 84
+    },
+    {
+      "name": "de_ancient.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_ancient.txt",
+      "size": 80
+    },
+    {
+      "name": "de_anubis.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_anubis.txt",
+      "size": 103
+    },
+    {
+      "name": "de_basalt.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_basalt.txt",
+      "size": 89
+    },
+    {
+      "name": "de_brewery.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_brewery.txt",
+      "size": 94
+    },
+    {
+      "name": "de_dogtown.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_dogtown.txt",
+      "size": 97
+    },
+    {
+      "name": "de_dust2.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_dust2.txt",
+      "size": 84
+    },
+    {
+      "name": "de_edin.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_edin.txt",
+      "size": 99
+    },
+    {
+      "name": "de_grail.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_grail.txt",
+      "size": 98
+    },
+    {
+      "name": "de_inferno.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_inferno.txt",
+      "size": 84
+    },
+    {
+      "name": "de_jura.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_jura.txt",
+      "size": 96
+    },
+    {
+      "name": "de_mirage.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_mirage.txt",
+      "size": 83
+    },
+    {
+      "name": "de_nuke.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_nuke.txt",
+      "size": 82
+    },
+    {
+      "name": "de_overpass.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_overpass.txt",
+      "size": 82
+    },
+    {
+      "name": "de_palais.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_palais.txt",
+      "size": 100
+    },
+    {
+      "name": "de_train.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_train.txt",
+      "size": 89
+    },
+    {
+      "name": "de_vertigo.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_vertigo.txt",
+      "size": 84
+    },
+    {
+      "name": "de_whistle.json",
+      "source_overview_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_whistle.txt",
+      "size": 87
+    }
+  ]
+}

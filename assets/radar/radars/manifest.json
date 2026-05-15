@@ -1,0 +1,168 @@
+{
+  "source_repo": "2mlml/cs2-radar-images",
+  "source_branch": "master",
+  "source_directory": ".",
+  "source_commit": "928f035ac467a860f1b893452231ad2532edd4b8",
+  "files": [
+    {
+      "name": "ar_baggage.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_baggage.png",
+      "size": 117476
+    },
+    {
+      "name": "ar_baggage_lower.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_baggage_lower.png",
+      "size": 62532
+    },
+    {
+      "name": "ar_pool_day.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_pool_day.png",
+      "size": 1094323
+    },
+    {
+      "name": "ar_shoots.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_shoots.png",
+      "size": 328314
+    },
+    {
+      "name": "cs_agency.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_agency.png",
+      "size": 159602
+    },
+    {
+      "name": "cs_italy.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_italy.png",
+      "size": 102976
+    },
+    {
+      "name": "cs_office.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_office.png",
+      "size": 199246
+    },
+    {
+      "name": "de_ancient.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_ancient.png",
+      "size": 90267
+    },
+    {
+      "name": "de_anubis.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_anubis.png",
+      "size": 128723
+    },
+    {
+      "name": "de_basalt.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_basalt.png",
+      "size": 370789
+    },
+    {
+      "name": "de_brewery.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_brewery.png",
+      "size": 358421
+    },
+    {
+      "name": "de_dogtown.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_dogtown.png",
+      "size": 187113
+    },
+    {
+      "name": "de_dust2.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_dust2.png",
+      "size": 175884
+    },
+    {
+      "name": "de_edin.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_edin.png",
+      "size": 125594
+    },
+    {
+      "name": "de_grail.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_grail.png",
+      "size": 1400312
+    },
+    {
+      "name": "de_inferno.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_inferno.png",
+      "size": 132536
+    },
+    {
+      "name": "de_jura.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_jura.png",
+      "size": 943104
+    },
+    {
+      "name": "de_jura_higher1.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_jura_higher1.png",
+      "size": 267949
+    },
+    {
+      "name": "de_jura_lower1.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_jura_lower1.png",
+      "size": 228323
+    },
+    {
+      "name": "de_mirage.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_mirage.png",
+      "size": 144543
+    },
+    {
+      "name": "de_nuke.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_nuke.png",
+      "size": 78534
+    },
+    {
+      "name": "de_nuke_lower.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_nuke_lower.png",
+      "size": 190423
+    },
+    {
+      "name": "de_overpass.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_overpass.png",
+      "size": 205176
+    },
+    {
+      "name": "de_palais.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_palais.png",
+      "size": 128050
+    },
+    {
+      "name": "de_palais_higher1.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_palais_higher1.png",
+      "size": 125679
+    },
+    {
+      "name": "de_palais_higher2.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_palais_higher2.png",
+      "size": 130391
+    },
+    {
+      "name": "de_train.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_train.png",
+      "size": 129214
+    },
+    {
+      "name": "de_train_lower.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_train_lower.png",
+      "size": 127153
+    },
+    {
+      "name": "de_vertigo.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_vertigo.png",
+      "size": 98334
+    },
+    {
+      "name": "de_vertigo_lower.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_vertigo_lower.png",
+      "size": 124081
+    },
+    {
+      "name": "de_whistle.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_whistle.png",
+      "size": 104420
+    },
+    {
+      "name": "default_png.png",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/default_png.png",
+      "size": 485460
+    }
+  ]
+}

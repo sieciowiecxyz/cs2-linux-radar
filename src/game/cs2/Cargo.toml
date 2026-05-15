@@ -1,0 +1,18 @@
+[package]
+name = "cs2"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+anyhow.workspace = true
+deadlocked-headless = { path = "../../game/deadlocked/headless" }
+runtime-types.workspace = true
+memreader-client.workspace = true
+tracing.workspace = true
+object = { version = "0.37.3", default-features = false, features = ["read", "elf", "std"] }
+
+[lints]
+workspace = true

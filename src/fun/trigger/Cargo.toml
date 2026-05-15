@@ -1,0 +1,17 @@
+[package]
+name = "fun-trigger"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+shared-logging.workspace = true
+cs2.workspace = true
+memreader-client.workspace = true
+runtime-types.workspace = true
+
+[lints]
+workspace = true

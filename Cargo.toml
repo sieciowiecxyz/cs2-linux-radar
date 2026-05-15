@@ -1,0 +1,33 @@
+[workspace]
+default-members = []
+resolver = "3"
+members = [
+    "src/apps/fun",
+    "src/crates/shared-logging",
+    "src/fun/radar",
+    "src/fun/mouse",
+    "src/fun/trigger",
+    "src/game/cs2",
+    "src/game/deadlocked/headless",
+    "src/game/runtime-types",
+    "src/host/kmod-memreader/client",
+    "src/host/kmod-memreader/uapi",
+]
+
+[workspace.lints.rust]
+unsafe_code = "forbid"
+
+[workspace.dependencies]
+anyhow = "1.0.99"
+evdev = "0.13.1"
+tracing = "0.1"
+shared-logging = { path = "src/crates/shared-logging" }
+memreader-uapi = { path = "src/host/kmod-memreader/uapi", package = "kmod-memreader-uapi" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.42", features = ["full"] }
+axum = { version = "0.8", features = ["ws"] }
+tower-http = { version = "0.6", features = ["fs", "trace"] }
+runtime-types = { path = "src/game/runtime-types" }
+memreader-client = { path = "src/host/kmod-memreader/client", package = "kmod-memreader-client" }
+cs2 = { path = "src/game/cs2" }

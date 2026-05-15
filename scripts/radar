@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+log_file="/tmp/fun.log"
+
+stop_cs2() {
+  sudo pkill -f '(^|/)(fun|fun-radar|fun-trigger|fun-mouse)$' || true
+  sudo pkill -f 'cargo run -q -p fun -- cs2' || true
+  sudo fuser -k 2137/tcp || true
+}
+
+usage() {
+  cat <<'EOF'
+usage:
+  radar
+  radar cs2
+  radar stop
+  radar off
+  radar --help
+EOF
+}
+
+start_cs2() {
+  stop_cs2
+  cd "$repo_dir"
+  sudo nohup env \
+    XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-/home/sieciowiec/.config}" \
+    cargo run -q -p fun -- cs2 >"$log_file" 2>&1 </dev/null &
+
+  echo "cs2 radar started in background"
+  echo "log: $log_file"
+}
+
+cmd="${1:-cs2}"
+case "$cmd" in
+  cs2|"")
+    start_cs2
+    ;;
+  stop|off)
+    stop_cs2
+    echo "all radars stopped"
+    ;;
+  -h|--help|help)
+    usage
+    ;;
+  *)
+    echo "unknown radar command: $cmd" >&2
+    usage >&2
+    exit 1
+    ;;
+esac

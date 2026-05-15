@@ -1,0 +1,123 @@
+{
+  "source_repo": "2mlml/cs2-radar-images",
+  "source_branch": "master",
+  "source_directory": ".",
+  "source_commit": "928f035ac467a860f1b893452231ad2532edd4b8",
+  "files": [
+    {
+      "name": "ar_baggage.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_baggage.txt",
+      "size": 496
+    },
+    {
+      "name": "ar_pool_day.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_pool_day.txt",
+      "size": 124
+    },
+    {
+      "name": "ar_shoots.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/ar_shoots.txt",
+      "size": 216
+    },
+    {
+      "name": "cs_agency.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_agency.txt",
+      "size": 313
+    },
+    {
+      "name": "cs_italy.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_italy.txt",
+      "size": 634
+    },
+    {
+      "name": "cs_office.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/cs_office.txt",
+      "size": 605
+    },
+    {
+      "name": "de_ancient.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_ancient.txt",
+      "size": 447
+    },
+    {
+      "name": "de_anubis.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_anubis.txt",
+      "size": 254
+    },
+    {
+      "name": "de_basalt.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_basalt.txt",
+      "size": 120
+    },
+    {
+      "name": "de_brewery.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_brewery.txt",
+      "size": 319
+    },
+    {
+      "name": "de_dogtown.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_dogtown.txt",
+      "size": 202
+    },
+    {
+      "name": "de_dust2.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_dust2.txt",
+      "size": 541
+    },
+    {
+      "name": "de_edin.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_edin.txt",
+      "size": 313
+    },
+    {
+      "name": "de_grail.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_grail.txt",
+      "size": 321
+    },
+    {
+      "name": "de_inferno.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_inferno.txt",
+      "size": 414
+    },
+    {
+      "name": "de_jura.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_jura.txt",
+      "size": 311
+    },
+    {
+      "name": "de_mirage.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_mirage.txt",
+      "size": 640
+    },
+    {
+      "name": "de_nuke.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_nuke.txt",
+      "size": 746
+    },
+    {
+      "name": "de_overpass.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_overpass.txt",
+      "size": 444
+    },
+    {
+      "name": "de_palais.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_palais.txt",
+      "size": 806
+    },
+    {
+      "name": "de_train.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_train.txt",
+      "size": 686
+    },
+    {
+      "name": "de_vertigo.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_vertigo.txt",
+      "size": 767
+    },
+    {
+      "name": "de_whistle.txt",
+      "download_url": "https://raw.githubusercontent.com/2mlml/cs2-radar-images/master/de_whistle.txt",
+      "size": 392
+    }
+  ]
+}

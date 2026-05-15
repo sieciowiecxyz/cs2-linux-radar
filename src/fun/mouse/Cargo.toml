@@ -1,0 +1,17 @@
+[package]
+name = "fun-mouse"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow.workspace = true
+evdev.workspace = true
+tracing.workspace = true
+shared-logging.workspace = true
+serde.workspace = true
+toml = "0.8"
+serde_json.workspace = true
+fun-trigger = { path = "../trigger" }
+
+[lints]
+workspace = true

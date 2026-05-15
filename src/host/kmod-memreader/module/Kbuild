@@ -1,0 +1,4 @@
+obj-m += memreader.o
+memreader-y := shims/memreader_glue.o shims/memreader_kernel_api.o src/memreader_core.o
+
+ccflags-y += -I$(src)/include

@@ -1,0 +1,13 @@
+[package]
+name = "kmod-memreader-kmod"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[package.metadata.kmod-memreader-kmod]
+build-system = "kbuild"
+module-name = "memreader"
+kernel-build-dir = "/lib/modules/$(uname -r)/build"
+
+[workspace]
+members = []

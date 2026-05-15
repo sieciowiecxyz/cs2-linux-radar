@@ -1,0 +1,13 @@
+[package]
+name = "shared-logging"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies]
+tracing-subscriber = { version = "0.3", default-features = false, features = ["ansi", "env-filter", "fmt", "time"] }
+
+[lints]
+workspace = true

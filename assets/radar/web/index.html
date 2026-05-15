@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Cache-Control" content="no-store" />
+    <title>fun-radar</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="panel">
+        <section class="radar-stage">
+          <div class="radar-shell">
+            <img id="radar-map" class="radar-map" alt="CS2 radar map" />
+            <canvas id="radar-canvas" class="radar-overlay" width="1024" height="1024"></canvas>
+            <div id="overlay-message" class="overlay-message"></div>
+          </div>
+        </section>
+
+        <section class="dock">
+          <div class="hud">
+            <div class="hud-heading">
+              <div class="title">fun radar</div>
+              <div class="meta">
+                <span id="status-line">status: booting</span>
+                <span id="map-line">map: -</span>
+                <span id="tick-line">tick: -</span>
+              </div>
+              <div class="meta">
+                <span id="window-line">window: -</span>
+                <span id="server-line">server players: -</span>
+                <span id="shown-line">shown: -</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="controls">
+            <label class="control-group control-group-toggle">
+              <input id="show-teammates-toggle" type="checkbox" checked />
+              <span>show teammates</span>
+            </label>
+            <label class="control-group control-group-toggle">
+              <input id="show-health-toggle" type="checkbox" checked />
+              <span>show health bars</span>
+            </label>
+            <div class="control-group">
+              <span class="control-label">marker size</span>
+              <button id="marker-size-down" type="button">-</button>
+              <span id="marker-size-value" class="control-value">16</span>
+              <button id="marker-size-up" type="button">+</button>
+            </div>
+          </div>
+
+          <section class="players-card">
+            <div class="section-label">players</div>
+            <div id="player-list" class="player-list"></div>
+          </section>
+        </section>
+
+        <footer class="panel-footer">
+          <img class="page-banner" src="./unknown_help.png" alt="unknown help" />
+        </footer>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
