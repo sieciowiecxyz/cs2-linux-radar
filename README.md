@@ -20,4 +20,4 @@ cargo run -p fun -- cs2
 ## Notes
 - `fun-mouse` is trigger-only here.
 - `fun-radar` loads `/dev/memreader` via `src/host/kmod-memreader/module`.
-- `scripts/radar` starts the stack in the background and logs to `/tmp/fun.log`.
+- `./radar.sh` starts the stack in the background and logs to `/tmp/fun.log`.

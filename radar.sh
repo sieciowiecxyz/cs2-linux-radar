@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+repo_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 log_file="/tmp/fun.log"
 
 stop_cs2() {
@@ -13,11 +13,11 @@ stop_cs2() {
 usage() {
   cat <<'EOF'
 usage:
-  radar
-  radar cs2
-  radar stop
-  radar off
-  radar --help
+  radar.sh
+  radar.sh cs2
+  radar.sh stop
+  radar.sh off
+  radar.sh --help
 EOF
 }
 
